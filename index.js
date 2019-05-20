@@ -26,8 +26,12 @@ function sayHiToGrandma(str)
   {
     return "I love you, too.";
   }
-  if (str.toLowerCase() === str)
+  else if (str.toLowerCase() === str)
   {
-    return "I can't hear you";
+    return "I can't hear you!";
+  }
+  else if (str.toUpperCase() === str)
+  {
+    return "YES INDEED!";
   }
 }
